@@ -265,3 +265,15 @@ position:relative;bottom:100px;
     font-weight: bolder;
     font-family: inherit;
 }
+.banner-one{
+    position: relative; right:30px;
+    border-radius: 10% 10% 10% 10%;
+}
+.banner-two{
+    border-radius: 10% 10% 10% 10%;
+}
+#wipes{
+    background-color: #F7FDF6;
+    margin-top: 920px;
+    position: relative; bottom:920px;
+}
