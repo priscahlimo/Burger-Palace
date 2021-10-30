@@ -319,10 +319,35 @@ position:relative;bottom:100px;
     margin-bottom: 38%;
 }
 #end{
-    float: right;
-    justify-content: space-between;
-    margin-top: 920px;
-    position: relative; bottom:1800px;
+    position: relative; bottom:870px;
+    margin-top: 2px;
+}
+
+#end ul{
+    list-style-type: none;
+    text-align:center;
+     display:inline-flex;
+     position:relative'
+}
+#end li{
+    margin-left: 50px;
+    list-style: none;
+   float: left
+}
+#end p {
+    float:left;
+    margin-left: 30px;;
+}
+.developer{
+    float:right;
+    position:relative;right :550px;
+    margin-right: 20px;
+    
+}
+
+
+
+    
 }
 
 
