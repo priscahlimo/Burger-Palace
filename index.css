@@ -3,12 +3,11 @@
   padding:0px;
 
  }
- /* #boundary{
-     background-color: 180% yellow;
- } */
+ 
 #header{
     height: 100%;
     width:100;
+
     
 }
 nav{
@@ -80,6 +79,9 @@ position:relative;bottom:100px;
     border-radius: 15px 15px 0px 15px;
     border-color: transparent;
     color: whitesmoke;
+}
+#pounds{
+    background-color: blue;
 }
 
 .description{
@@ -195,4 +197,17 @@ position:relative;bottom:100px;
     display: flex;
     justify-content: space-between;
     font-weight: bolder;
+}
+#more-info {
+    position: relative;
+    top: 500px;
+}
+.yummy{
+    display: flex;
+    margin-top: 225px;
+    float:right;
+}
+.gold{
+    position: relative; left:500px; top:180px;
+}
 }
