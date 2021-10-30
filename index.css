@@ -132,8 +132,33 @@ position:relative;bottom:100px;
     align-items: center;
 }
 .menu-bar{
-    position:relative; margin-top: 460px;
-    margin-left: 690px;
-    
+    position:relative; margin-top: 580px;
+    margin-left: 690px;   
 }
-    
+.menu-bar::after{
+    content:'';
+    width: 10%;
+    height:5px;
+    background: #F6B400;
+    display: block;
+    margin-left: 5.3%;
+}
+.menu-color{
+    color: #F6B400;
+    text-align: center;
+}
+
+#row2{
+        float: right;
+        width: 33.33%;
+        padding: 5px;
+
+}
+
+#menu{
+    position: relative;
+    top: 500px;
+}
+#menu h1{
+    text-align: center;
+}
