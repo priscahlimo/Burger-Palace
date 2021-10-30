@@ -237,7 +237,19 @@ position:relative;bottom:100px;
 .dots{
     font-size:100px;
     padding: 60px;
-   
-
 }
+#communication{
+    background-color:#F6B400; 
+    height: 925px;
+    margin-top: 1125px;
+    margin-bottom: 925px;
+}
+.super{
+    display: flex;
+    margin-top: 15px;
+    float:right;
+    justify-content: space-around; 
+    padding: 35px;
+}
+
 .
