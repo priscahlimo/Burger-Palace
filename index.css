@@ -182,8 +182,17 @@ position:relative;bottom:100px;
     flex-wrap: wrap;
 }
 .cart{
-    float:right;
+
+    padding: 30px;
+    color: blue;
 }
-    
+.shillings{
+    position:relative;top:20px;  
 }
 
+ 
+.justify{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+}
