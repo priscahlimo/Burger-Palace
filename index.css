@@ -87,24 +87,20 @@ position:relative;bottom:100px;
     flex-direction: row;
     justify-content: space-around;
     position: relative;
-    position:relative; 
     font-size: small;
     top: 500px; 
-    left: 60px;
-    background-color: rgb(196, 218, 215);
-}
-.quality{
-    border-style: solid;
-    border-color:  rgb(216, 120, 51);
-    padding: 20px 10px;
-    margin: 150px 30px 20px 30px;
-
+    background-color: #F7FDF6;
+    
+    
 }
 .delivery{
     border-style: solid;
     border-color: rgb(216, 120, 51);
-    padding: 20px 40px;
-    margin: 150px 30px 20px 30px;
+    padding: 90px 10px 30px 10px;
+    margin: 50px 30px;
+    border-radius: 15px;
+    text-align: center;
+
     
     
 
@@ -112,8 +108,10 @@ position:relative;bottom:100px;
 .quality{
     border-style: solid;
     border-color:rgb(216, 120, 51) ;
-    padding: 20px -0px;
-    margin: 150px 30px 20px 30px;
+    padding-top: 80px;
+    margin: 100px 60px;
+    border-radius: 15px;
+
 }
 .card-title{
     font-family: sans-serif;
@@ -124,5 +122,18 @@ position:relative;bottom:100px;
 .card-img-top{
     margin-left: 150px;
     border-color: wheat;
+}
+.card-text{
+    text-align: center;
+    font-size: small;
+    margin: 20px 90px;
+}
+.quality , .delivery{
+    align-items: center;
+}
+.menu-bar{
+    position:relative; margin-top: 460px;
+    margin-left: 690px;
+    
 }
     
