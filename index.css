@@ -2,9 +2,13 @@
   margin: 0px;
   padding:0px   
  }
-.header{
-    min-height: 100%;
-    width:100%;
+ /* #boundary{
+     background-color: 180% yellow;
+ } */
+#header{
+    height: 100%;
+    width:100;
+    
 }
 nav{
     display:flex;
@@ -25,10 +29,11 @@ position:relative
 }
 .logo{
     font-family: 'Niconne', cursive;
-    font-size: 30px;
+    font-size: 50px;
 }
 .logo-text{
     color:#F6B400;
+    font-size: 50px;
 }
 .nav-links ul li a{
     text-decoration: none;
@@ -58,12 +63,13 @@ position:relative;bottom:100px;
     width:28%;
     position:relative;top:90px;
     transform: translate(70%);
-    font-size: 25px;
+    font-size: 27px;
 }
 .text-box p{
     width:45%;
-    position:relative;top: 100px;
+    position:relative;top: 130px;
     transform: translate(40%); 
+    font-family: 'Poppins', sans-serif;;
 }
 .text-box button{
     padding:10px 20px;
@@ -73,5 +79,50 @@ position:relative;bottom:100px;
     border-radius: 15px 15px 0px 15px;
     border-color: transparent;
     color: whitesmoke;
+}
+
+.description{
+    height: 490px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    position:relative; 
+    font-size: small;
+    top: 500px; 
+    left: 60px;
+    background-color: rgb(196, 218, 215);
+}
+.quality{
+    border-style: solid;
+    border-color:  rgb(216, 120, 51);
+    padding: 20px 10px;
+    margin: 150px 30px 20px 30px;
+
+}
+.delivery{
+    border-style: solid;
+    border-color: rgb(216, 120, 51);
+    padding: 20px 40px;
+    margin: 150px 30px 20px 30px;
+    
+    
+
+}  
+.quality{
+    border-style: solid;
+    border-color:rgb(216, 120, 51) ;
+    padding: 20px -0px;
+    margin: 150px 30px 20px 30px;
+}
+.card-title{
+    font-family: sans-serif;
+    font-size: large;
+    color: sienna;
+    text-align: center;
+}
+.card-img-top{
+    margin-left: 150px;
+    border-color: wheat;
 }
     
