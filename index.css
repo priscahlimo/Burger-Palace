@@ -340,14 +340,12 @@ position:relative;bottom:100px;
 }
 .developer{
     float:right;
-    position:relative;right :550px;
-    margin-right: 20px;
-    
-}
+    margin-left: 900px;
+    padding-right: 10%;
+    font-size: 40px;
+    font-weight: bolder;
+    position: relative; bottom:60px;
 
-
-
-    
 }
 
 
