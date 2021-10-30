@@ -148,12 +148,12 @@ position:relative;bottom:100px;
     text-align: center;
 }
 
-#row2{
+/* #row2{
         float: right;
         width: 33.33%;
         padding: 5px;
 
-}
+} */
 
 #menu{
     position: relative;
@@ -161,4 +161,9 @@ position:relative;bottom:100px;
 }
 #menu h1{
     text-align: center;
+}
+
+#row,#row2{
+    display: flex;
+    justify-content: center;
 }
