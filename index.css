@@ -1,6 +1,7 @@
  *{
   margin: 0px;
-  padding:0px   
+  padding:0px;
+
  }
  /* #boundary{
      background-color: 180% yellow;
@@ -166,4 +167,23 @@ position:relative;bottom:100px;
 #row,#row2{
     display: flex;
     justify-content: center;
+
 }
+.column-container-xs{
+    width: 45%;
+    border-style: solid;
+    border-color: rgb(216, 120, 51);
+    margin:20px 10px;
+    border-radius: 15px;
+    text-align: center;
+    align-content: center;
+    position:relative;top:50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cart{
+    float:right;
+}
+    
+}
+
