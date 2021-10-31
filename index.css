@@ -254,33 +254,34 @@ position:relative
     border-radius: 10% 10% 10% 10%;
 }
 #wipes{
+
     background-color: #F7FDF6;
-    margin-top: 920px;
-    position: relative; bottom:920px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    padding-top: 50px;
 }
-.arrange{
-    text-align: center;
-    font-size: 30px;
-    position: relative; bottom:100px;
+.arrange ul li{
+    font-size: 20px;
     padding-bottom: 20px;
-    list-style-type: none none;
+    list-style-type: none;
 
 }
 .news{
     display: flex;
-    float: right;
-    justify-self: right;
+    flex-direction: column;
+  
     
 }
-.news h4{
-    position: relative; bottom:250px; left:90px;
-    font-size: 20px;
+
+.news input{
+    padding: 5px;
 }
 .news button{
-    position: relative; bottom:140px; right: 150px;
-    padding:7% 8% ;
-    width:300px;
-    height: 50px;
+    padding:7px ;
+    padding-left: 10px;
+    background-color: #f6b400;
+    border: transparent;
 }
 #wipes h1{
     margin-left: 95px;
