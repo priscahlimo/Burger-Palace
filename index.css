@@ -301,34 +301,21 @@ position:relative
     margin-bottom: 38%;
 }
 #end{
-    position: relative; bottom:870px;
-    margin-top: 2px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-#end ul{
+#end ul li{
     list-style-type: none;
     text-align:center;
-     display:inline-flex;
-     position:relative'
+    padding: 5px;
+     display:inline;
 }
-#end li{
-    margin-left: 50px;
-    list-style: none;
-   float: left
-}
-#end p {
-    float:left;
-    margin-left: 30px;;
-}
-.developer{
-    float:right;
-    margin-left: 900px;
-    padding-right: 10%;
-    font-size: 40px;
-    font-weight: bolder;
-    position: relative; bottom:60px;
 
-}
+.developer{
+    font-size: 20px;
+    font-weight: bolder;
+ }
 
 
 
