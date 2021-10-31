@@ -9,7 +9,6 @@
     background-color: #F6B400;
 } 
 
-
 #nav{
     display:flex;
     padding:2% 6%;
@@ -51,7 +50,6 @@ position:relative
 #pound{
     display: flex;
     justify-content: space-around;
-    margin: 20px;
 }
 .city-img img{
     width: 600px;
@@ -83,13 +81,10 @@ position:relative
     color: whitesmoke;
 }
 .description{
-    height: 490px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    position: relative;
     font-size: small;
-    top: 500px; 
     background-color: #F7FDF6;
 }
 .delivery{
@@ -106,7 +101,7 @@ position:relative
     padding-top: 80px;
     margin: 100px 60px;
     border-radius: 15px;
-
+    text-align: center;
 }
 .card-title{
     font-family: sans-serif;
@@ -114,9 +109,13 @@ position:relative
     color: sienna;
     text-align: center;
 }
+.quality img, .delivery img{
+    align-items: center;
+    text-align: center;
+}
 .card-img-top{
-    margin-left: 150px;
-    border-color: wheat;
+    text-align: center;
+    align-self: center;
 }
 .card-text{
     text-align: center;
